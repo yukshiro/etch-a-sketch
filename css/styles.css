@@ -81,6 +81,9 @@ h6 {
   font-size: inherit;
   line-height: inherit;
 }
+body {
+  background-color: #fdf0d5;
+}
 
 .wrapper {
   min-height: 100%;
@@ -113,4 +116,34 @@ h6 {
 
 .hoovered {
   background-color: #c1121f;
+}
+
+.grid__main-title {
+  color: #003049;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.grid__handle-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;
+  gap: 10px;
+}
+
+.grid__btn-reset,
+.grid__btn-edit {
+  background-color: #669bbc;
+  min-width: 70px;
+  min-height: 35px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+label {
+  color: #669bbc;
 }
