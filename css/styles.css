@@ -120,7 +120,7 @@ body {
 
 .grid__main-title {
   color: #003049;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
   text-align: center;
 }
@@ -142,8 +142,4 @@ body {
   padding: 10px;
   font-size: 14px;
   font-weight: 400;
-}
-
-label {
-  color: #669bbc;
 }
